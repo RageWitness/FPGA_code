@@ -1,10 +1,10 @@
 module I2s (
-    input clk;
+    input clk;   //24 Mhz
     input [15:0] left;
     input [15:0] right;
     output reg din;
-    output reg sck;
-    output reg ws;
+    output reg sck;  
+    output reg ws; //16Khz
 );
     reg [5:0] div_sck_counter =0;
     
