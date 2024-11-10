@@ -3,7 +3,7 @@
 
 in this project:  sampling rate = 16KHz  , accuracy(LOD) = 4095 (12bit) , carrier frequency = 32KHz
 
-!!!! pwm_data should be sent in with at sampling frequency 
+!!!! pwm_data should be sent in at sampling frequency 
 */
 module PWM_play#(parameter LOD = 4095 )(
         input pwm_clk,
